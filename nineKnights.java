@@ -38,6 +38,7 @@ public class nineKnights {
             }
         }
 
+        // check if there are 9 knights on the board
         if (knightCount != 9) {
             System.out.print("invalid");
             scanner.close();
